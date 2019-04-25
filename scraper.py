@@ -48,7 +48,7 @@ def open_url_in_browser(url):
  url = 'http://' + url
  print (url)
  browser = webdriver.Chrome() #replace with .Firefox(), or with the browser of your choice
- # url = "http://secureteen.com"
+
  
  try:
  
@@ -81,7 +81,7 @@ for url in urls:
  
  
 browser = webdriver.Chrome() #replace with .Firefox(), or with the browser of your choice
-url = "http://secureteen.com"
+
 browser.get(url) #navigate to the page
 
 #WebDriverWait(browser, 10)
@@ -152,7 +152,7 @@ driver.find_elements_by_tag_name('iframe')[i].getAttribute("id")
 """
 
 
-# get all iframe id'secureteen
+# get all iframe id'
 
 
 # get innerhtml of all iframes based on id's
@@ -216,7 +216,7 @@ while i < numOfFrames:
 
 
 
-#browser.get("http://secureteen.com") #navigate to page behind login
+#browser.get("http://abc.com") #navigate to page behind login
 #size = browser.execute_script("return document.getElementsByTagName(\"iframe\")) #returns the inner HTML as a string
 #innerHTML = browser.execute_script("return document.innerHTML") #returns the inner HTML as a string
 #size = browser.findElements(By.tagName("iframe")).size();
